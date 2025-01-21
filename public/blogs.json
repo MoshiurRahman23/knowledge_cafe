@@ -1,0 +1,52 @@
+[
+  {
+    "id": 1,
+    "cover": "https://i.ibb.co.com/PrWFZBx/8474196.jpg",
+    "title": "The Journey Beyond",
+    "author": "Alex Carter",
+    "author_img": "https://randomuser.me/api/portraits/men/1.jpg",
+    "posted_date": "2025-01-15",
+    "reading_time": 5,
+    "hashtags": ["#Adventure", "#Travel", "#Inspiration"]
+  },
+  {
+    "id": 2,
+    "cover": "https://i.ibb.co.com/X231Jd8/andrew-neel-cckf4-Ts-HAuw-unsplash.jpg",
+    "title": "Designing for the Future",
+    "author": "Sophia Lee",
+    "author_img": "https://randomuser.me/api/portraits/women/2.jpg",
+    "posted_date": "2025-01-18",
+    "reading_time": 8,
+    "hashtags": ["#UIUX", "#Design", "#Innovation"]
+  },
+  {
+    "id": 3,
+    "cover": "https://i.ibb.co.com/x1dQSbH/talented-creative-goodlooking-redhead-woman-writing-poem-story-taking-notes-prepare-grocery-list-gas.jpg",
+    "title": "Mastering Full-Stack Development",
+    "author": "Ryan Patel",
+    "author_img": "https://randomuser.me/api/portraits/men/3.jpg",
+    "posted_date": "2025-01-12",
+    "reading_time": 10,
+    "hashtags": ["#FullStack", "#Coding", "#Programming"]
+  },
+  {
+    "id": 4,
+    "cover": "https://i.ibb.co.com/g60kpxJ/7326254.jpg",
+    "title": "The Psychology of Creativity",
+    "author": "Emma Taylor",
+    "author_img": "https://randomuser.me/api/portraits/women/4.jpg",
+    "posted_date": "2025-01-20",
+    "reading_time": 7,
+    "hashtags": ["#Creativity", "#Mindset", "#Psychology"]
+  },
+  {
+    "id": 5,
+    "cover": "https://i.ibb.co.com/yXD8tN6/6890049.jpg",
+    "title": "Exploring the World of AI",
+    "author": "Liam Martinez",
+    "author_img": "https://randomuser.me/api/portraits/men/5.jpg",
+    "posted_date": "2025-01-10",
+    "reading_time": 6,
+    "hashtags": ["#AI", "#Technology", "#Future"]
+  }
+]

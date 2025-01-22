@@ -12,7 +12,7 @@ const Blogs = ({ handleAddBookmarks, handleMarkAsRead }) => {
       .then((data) => setBlogs(data));
   }, []);
   return (
-    <div className="md:w-2/3">
+    <div className="md:w-2/3 py-3">
       {blogs.map((blog) => (
         <Blog
           blog={blog}

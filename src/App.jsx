@@ -12,14 +12,20 @@ function App() {
     setBookmarks(newBookmarks);
   };
 
-  const handleMarkAsRead = (time) => {
-    setReadingTime(readingTime + time);
+  const handleMarkAsRead = (id, time) => {
+    const newReadingTime = readingTime + time;
+    setReadingTime(newReadingTime);
+    // console.log("Remove BookMark:", id);
+    const remainingBookmarks = bookmarks.filter(
+      (bookmark) => bookmark.id !== id
+    );
+    setBookmarks(remainingBookmarks);
   };
 
   return (
     <>
       <Header />
-      <main className="md:flex max-w-7xl mx-auto">
+      <main className="md:flex max-w-7xl mx-auto justify-between">
         <Blogs
           handleMarkAsRead={handleMarkAsRead}
           handleAddBookmarks={handleAddBookmarks}
